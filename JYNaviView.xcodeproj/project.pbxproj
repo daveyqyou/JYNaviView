@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0422075F233AFC7C00465C39 /* JYBaseTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0422075E233AFC7C00465C39 /* JYBaseTabBarViewController.m */; };
+		04220762233AFEA000465C39 /* JYBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04220761233AFEA000465C39 /* JYBaseViewController.m */; };
+		04220764233AFEAD00465C39 /* One.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04220763233AFEAD00465C39 /* One.storyboard */; };
+		04220766233AFEB300465C39 /* Two.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04220765233AFEB300465C39 /* Two.storyboard */; };
+		04220768233AFEBA00465C39 /* Three.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04220767233AFEBA00465C39 /* Three.storyboard */; };
+		0422076A233AFEC200465C39 /* Four.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04220769233AFEC200465C39 /* Four.storyboard */; };
+		0422076D233AFF9000465C39 /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0422076C233AFF9000465C39 /* OneViewController.m */; };
+		04220770233AFFAF00465C39 /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0422076F233AFFAF00465C39 /* TwoViewController.m */; };
+		04220773233AFFC300465C39 /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04220772233AFFC300465C39 /* ThreeViewController.m */; };
+		04220776233AFFDC00465C39 /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04220775233AFFDC00465C39 /* FourViewController.m */; };
+		04220779233B2CA500465C39 /* JYBaseNaviViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04220778233B2CA500465C39 /* JYBaseNaviViewController.m */; };
+		0422077D233B2CDF00465C39 /* TwoDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0422077B233B2CDF00465C39 /* TwoDetailViewController.m */; };
+		0422077E233B2CDF00465C39 /* TwoDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0422077C233B2CDF00465C39 /* TwoDetailViewController.xib */; };
+		04220782233B3A9700465C39 /* TwoThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04220780233B3A9700465C39 /* TwoThirdViewController.m */; };
+		04220783233B3A9700465C39 /* TwoThirdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04220781233B3A9700465C39 /* TwoThirdViewController.xib */; };
+		04618234233A46A700C39711 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04618233233A46A700C39711 /* AppDelegate.m */; };
+		0461823F233A46A800C39711 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0461823E233A46A800C39711 /* Assets.xcassets */; };
+		04618242233A46A800C39711 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04618240233A46A800C39711 /* LaunchScreen.storyboard */; };
+		04618245233A46A800C39711 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04618244233A46A800C39711 /* main.m */; };
+		0461824F233A46F800C39711 /* JYNaviView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0461824C233A46F700C39711 /* JYNaviView.m */; };
+		04618250233A46F800C39711 /* JYDisableHightlightBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 0461824E233A46F700C39711 /* JYDisableHightlightBtn.m */; };
+		1F0B19447A86A9063572266B /* libPods-JYNaviView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9B3F581E24C20A9C00D2016 /* libPods-JYNaviView.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0422075C233AFBBD00465C39 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		0422075D233AFC7C00465C39 /* JYBaseTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYBaseTabBarViewController.h; sourceTree = "<group>"; };
+		0422075E233AFC7C00465C39 /* JYBaseTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYBaseTabBarViewController.m; sourceTree = "<group>"; };
+		04220760233AFEA000465C39 /* JYBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYBaseViewController.h; sourceTree = "<group>"; };
+		04220761233AFEA000465C39 /* JYBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYBaseViewController.m; sourceTree = "<group>"; };
+		04220763233AFEAD00465C39 /* One.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = One.storyboard; sourceTree = "<group>"; };
+		04220765233AFEB300465C39 /* Two.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Two.storyboard; sourceTree = "<group>"; };
+		04220767233AFEBA00465C39 /* Three.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Three.storyboard; sourceTree = "<group>"; };
+		04220769233AFEC200465C39 /* Four.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Four.storyboard; sourceTree = "<group>"; };
+		0422076B233AFF9000465C39 /* OneViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		0422076C233AFF9000465C39 /* OneViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		0422076E233AFFAF00465C39 /* TwoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		0422076F233AFFAF00465C39 /* TwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		04220771233AFFC300465C39 /* ThreeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThreeViewController.h; sourceTree = "<group>"; };
+		04220772233AFFC300465C39 /* ThreeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreeViewController.m; sourceTree = "<group>"; };
+		04220774233AFFDC00465C39 /* FourViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
+		04220775233AFFDC00465C39 /* FourViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
+		04220777233B2CA500465C39 /* JYBaseNaviViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JYBaseNaviViewController.h; sourceTree = "<group>"; };
+		04220778233B2CA500465C39 /* JYBaseNaviViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JYBaseNaviViewController.m; sourceTree = "<group>"; };
+		0422077A233B2CDF00465C39 /* TwoDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoDetailViewController.h; sourceTree = "<group>"; };
+		0422077B233B2CDF00465C39 /* TwoDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoDetailViewController.m; sourceTree = "<group>"; };
+		0422077C233B2CDF00465C39 /* TwoDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TwoDetailViewController.xib; sourceTree = "<group>"; };
+		0422077F233B3A9700465C39 /* TwoThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoThirdViewController.h; sourceTree = "<group>"; };
+		04220780233B3A9700465C39 /* TwoThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoThirdViewController.m; sourceTree = "<group>"; };
+		04220781233B3A9700465C39 /* TwoThirdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TwoThirdViewController.xib; sourceTree = "<group>"; };
+		0461822F233A46A700C39711 /* JYNaviView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JYNaviView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04618232233A46A700C39711 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04618233233A46A700C39711 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0461823E233A46A800C39711 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		04618241233A46A800C39711 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		04618243233A46A800C39711 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04618244233A46A800C39711 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0461824B233A46F700C39711 /* JYDisableHightlightBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYDisableHightlightBtn.h; sourceTree = "<group>"; };
+		0461824C233A46F700C39711 /* JYNaviView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYNaviView.m; sourceTree = "<group>"; };
+		0461824D233A46F700C39711 /* JYNaviView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYNaviView.h; sourceTree = "<group>"; };
+		0461824E233A46F700C39711 /* JYDisableHightlightBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYDisableHightlightBtn.m; sourceTree = "<group>"; };
+		166621743C3C7D5125286F9E /* Pods-JYNaviView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JYNaviView.release.xcconfig"; path = "Pods/Target Support Files/Pods-JYNaviView/Pods-JYNaviView.release.xcconfig"; sourceTree = "<group>"; };
+		A9B3F581E24C20A9C00D2016 /* libPods-JYNaviView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JYNaviView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B56431A0BACE37C1586AA82C /* Pods-JYNaviView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JYNaviView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JYNaviView/Pods-JYNaviView.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0461822C233A46A700C39711 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F0B19447A86A9063572266B /* libPods-JYNaviView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04220784233B3CDA00465C39 /* NaviView */ = {
+			isa = PBXGroup;
+			children = (
+				0461824B233A46F700C39711 /* JYDisableHightlightBtn.h */,
+				0461824E233A46F700C39711 /* JYDisableHightlightBtn.m */,
+				0461824D233A46F700C39711 /* JYNaviView.h */,
+				0461824C233A46F700C39711 /* JYNaviView.m */,
+			);
+			path = NaviView;
+			sourceTree = "<group>";
+		};
+		04220785233B3CFC00465C39 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				04220760233AFEA000465C39 /* JYBaseViewController.h */,
+				04220761233AFEA000465C39 /* JYBaseViewController.m */,
+				0422075D233AFC7C00465C39 /* JYBaseTabBarViewController.h */,
+				0422075E233AFC7C00465C39 /* JYBaseTabBarViewController.m */,
+				04220777233B2CA500465C39 /* JYBaseNaviViewController.h */,
+				04220778233B2CA500465C39 /* JYBaseNaviViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		04220786233B3D0E00465C39 /* AppEntry */ = {
+			isa = PBXGroup;
+			children = (
+				04618232233A46A700C39711 /* AppDelegate.h */,
+				04618233233A46A700C39711 /* AppDelegate.m */,
+				0461823E233A46A800C39711 /* Assets.xcassets */,
+				04618240233A46A800C39711 /* LaunchScreen.storyboard */,
+				04618243233A46A800C39711 /* Info.plist */,
+				04618244233A46A800C39711 /* main.m */,
+				0422075C233AFBBD00465C39 /* PrefixHeader.pch */,
+			);
+			name = AppEntry;
+			sourceTree = "<group>";
+		};
+		04220787233B3D1F00465C39 /* One */ = {
+			isa = PBXGroup;
+			children = (
+				0422076B233AFF9000465C39 /* OneViewController.h */,
+				0422076C233AFF9000465C39 /* OneViewController.m */,
+				04220763233AFEAD00465C39 /* One.storyboard */,
+			);
+			path = One;
+			sourceTree = "<group>";
+		};
+		04220788233B3D2600465C39 /* Two */ = {
+			isa = PBXGroup;
+			children = (
+				0422076E233AFFAF00465C39 /* TwoViewController.h */,
+				0422076F233AFFAF00465C39 /* TwoViewController.m */,
+				04220765233AFEB300465C39 /* Two.storyboard */,
+				0422077A233B2CDF00465C39 /* TwoDetailViewController.h */,
+				0422077B233B2CDF00465C39 /* TwoDetailViewController.m */,
+				0422077C233B2CDF00465C39 /* TwoDetailViewController.xib */,
+				0422077F233B3A9700465C39 /* TwoThirdViewController.h */,
+				04220780233B3A9700465C39 /* TwoThirdViewController.m */,
+				04220781233B3A9700465C39 /* TwoThirdViewController.xib */,
+			);
+			path = Two;
+			sourceTree = "<group>";
+		};
+		04220789233B3D2B00465C39 /* Three */ = {
+			isa = PBXGroup;
+			children = (
+				04220771233AFFC300465C39 /* ThreeViewController.h */,
+				04220772233AFFC300465C39 /* ThreeViewController.m */,
+				04220767233AFEBA00465C39 /* Three.storyboard */,
+			);
+			path = Three;
+			sourceTree = "<group>";
+		};
+		0422078A233B3D3000465C39 /* Four */ = {
+			isa = PBXGroup;
+			children = (
+				04220774233AFFDC00465C39 /* FourViewController.h */,
+				04220775233AFFDC00465C39 /* FourViewController.m */,
+				04220769233AFEC200465C39 /* Four.storyboard */,
+			);
+			path = Four;
+			sourceTree = "<group>";
+		};
+		0422078B233B3D6D00465C39 /* Moudle */ = {
+			isa = PBXGroup;
+			children = (
+				04220787233B3D1F00465C39 /* One */,
+				04220788233B3D2600465C39 /* Two */,
+				04220789233B3D2B00465C39 /* Three */,
+				0422078A233B3D3000465C39 /* Four */,
+			);
+			path = Moudle;
+			sourceTree = "<group>";
+		};
+		04618226233A46A700C39711 = {
+			isa = PBXGroup;
+			children = (
+				04618231233A46A700C39711 /* JYNaviView */,
+				04618230233A46A700C39711 /* Products */,
+				0F179D65D92B2C0350F20C31 /* Pods */,
+				D8FD2248A269B3E6E608C4BC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		04618230233A46A700C39711 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0461822F233A46A700C39711 /* JYNaviView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04618231233A46A700C39711 /* JYNaviView */ = {
+			isa = PBXGroup;
+			children = (
+				04220786233B3D0E00465C39 /* AppEntry */,
+				04220785233B3CFC00465C39 /* Base */,
+				04220784233B3CDA00465C39 /* NaviView */,
+				0422078B233B3D6D00465C39 /* Moudle */,
+			);
+			path = JYNaviView;
+			sourceTree = "<group>";
+		};
+		0F179D65D92B2C0350F20C31 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B56431A0BACE37C1586AA82C /* Pods-JYNaviView.debug.xcconfig */,
+				166621743C3C7D5125286F9E /* Pods-JYNaviView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D8FD2248A269B3E6E608C4BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9B3F581E24C20A9C00D2016 /* libPods-JYNaviView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0461822E233A46A700C39711 /* JYNaviView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04618248233A46A800C39711 /* Build configuration list for PBXNativeTarget "JYNaviView" */;
+			buildPhases = (
+				05B83000DBB8EBCD992099C9 /* [CP] Check Pods Manifest.lock */,
+				0461822B233A46A700C39711 /* Sources */,
+				0461822C233A46A700C39711 /* Frameworks */,
+				0461822D233A46A700C39711 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JYNaviView;
+			productName = JYNaviView;
+			productReference = 0461822F233A46A700C39711 /* JYNaviView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04618227233A46A700C39711 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = DaveYou;
+				TargetAttributes = {
+					0461822E233A46A700C39711 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 0461822A233A46A700C39711 /* Build configuration list for PBXProject "JYNaviView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04618226233A46A700C39711;
+			productRefGroup = 04618230233A46A700C39711 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0461822E233A46A700C39711 /* JYNaviView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0461822D233A46A700C39711 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04220768233AFEBA00465C39 /* Three.storyboard in Resources */,
+				04220764233AFEAD00465C39 /* One.storyboard in Resources */,
+				04618242233A46A800C39711 /* LaunchScreen.storyboard in Resources */,
+				0461823F233A46A800C39711 /* Assets.xcassets in Resources */,
+				0422076A233AFEC200465C39 /* Four.storyboard in Resources */,
+				04220766233AFEB300465C39 /* Two.storyboard in Resources */,
+				0422077E233B2CDF00465C39 /* TwoDetailViewController.xib in Resources */,
+				04220783233B3A9700465C39 /* TwoThirdViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		05B83000DBB8EBCD992099C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JYNaviView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0461822B233A46A700C39711 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04618234233A46A700C39711 /* AppDelegate.m in Sources */,
+				04618250233A46F800C39711 /* JYDisableHightlightBtn.m in Sources */,
+				04220779233B2CA500465C39 /* JYBaseNaviViewController.m in Sources */,
+				04220776233AFFDC00465C39 /* FourViewController.m in Sources */,
+				04618245233A46A800C39711 /* main.m in Sources */,
+				0461824F233A46F800C39711 /* JYNaviView.m in Sources */,
+				04220762233AFEA000465C39 /* JYBaseViewController.m in Sources */,
+				0422076D233AFF9000465C39 /* OneViewController.m in Sources */,
+				0422077D233B2CDF00465C39 /* TwoDetailViewController.m in Sources */,
+				04220773233AFFC300465C39 /* ThreeViewController.m in Sources */,
+				04220782233B3A9700465C39 /* TwoThirdViewController.m in Sources */,
+				0422075F233AFC7C00465C39 /* JYBaseTabBarViewController.m in Sources */,
+				04220770233AFFAF00465C39 /* TwoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		04618240233A46A800C39711 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				04618241233A46A800C39711 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		04618246233A46A800C39711 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04618247233A46A800C39711 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04618249233A46A800C39711 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B56431A0BACE37C1586AA82C /* Pods-JYNaviView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F8NSTZ9X5T;
+				GCC_PREFIX_HEADER = JYNaviView/PrefixHeader.pch;
+				INFOPLIST_FILE = JYNaviView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.DaveYou.demo.JYNaviView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		0461824A233A46A800C39711 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 166621743C3C7D5125286F9E /* Pods-JYNaviView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F8NSTZ9X5T;
+				GCC_PREFIX_HEADER = JYNaviView/PrefixHeader.pch;
+				INFOPLIST_FILE = JYNaviView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.DaveYou.demo.JYNaviView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0461822A233A46A700C39711 /* Build configuration list for PBXProject "JYNaviView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04618246233A46A800C39711 /* Debug */,
+				04618247233A46A800C39711 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04618248233A46A800C39711 /* Build configuration list for PBXNativeTarget "JYNaviView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04618249233A46A800C39711 /* Debug */,
+				0461824A233A46A800C39711 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04618227233A46A700C39711 /* Project object */;
+}
