@@ -15,10 +15,26 @@
                     <view key="view" contentMode="scaleToFill" id="6NF-EK-Cfq">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="tSD-h1-MgH">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemOrangeColor" red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="tSD-h1-MgH" firstAttribute="top" secondItem="6NF-EK-Cfq" secondAttribute="top" id="0bm-7Y-qKe"/>
+                            <constraint firstItem="2wk-6o-XPH" firstAttribute="bottom" secondItem="tSD-h1-MgH" secondAttribute="bottom" id="3fm-Lo-O3d"/>
+                            <constraint firstItem="tSD-h1-MgH" firstAttribute="leading" secondItem="2wk-6o-XPH" secondAttribute="leading" id="W3K-Ju-oA4"/>
+                            <constraint firstItem="2wk-6o-XPH" firstAttribute="trailing" secondItem="tSD-h1-MgH" secondAttribute="trailing" id="qEC-Yr-cr9"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="2wk-6o-XPH"/>
                     </view>
                     <navigationItem key="navigationItem" title="One" id="Ts1-pW-NFG"/>
+                    <connections>
+                        <outlet property="safeToTop" destination="0bm-7Y-qKe" id="u33-zk-6pR"/>
+                        <outlet property="tableView" destination="tSD-h1-MgH" id="JtF-8x-VqB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="O8i-VY-966" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

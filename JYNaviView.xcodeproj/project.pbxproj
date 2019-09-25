@@ -28,6 +28,7 @@
 		04618245233A46A800C39711 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04618244233A46A800C39711 /* main.m */; };
 		0461824F233A46F800C39711 /* JYNaviView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0461824C233A46F700C39711 /* JYNaviView.m */; };
 		04618250233A46F800C39711 /* JYDisableHightlightBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 0461824E233A46F700C39711 /* JYDisableHightlightBtn.m */; };
+		04E6B208233BB1F300F549B1 /* OneDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E6B207233BB1F300F549B1 /* OneDetailViewController.m */; };
 		1F0B19447A86A9063572266B /* libPods-JYNaviView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9B3F581E24C20A9C00D2016 /* libPods-JYNaviView.a */; };
 /* End PBXBuildFile section */
 
@@ -68,6 +69,8 @@
 		0461824C233A46F700C39711 /* JYNaviView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYNaviView.m; sourceTree = "<group>"; };
 		0461824D233A46F700C39711 /* JYNaviView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JYNaviView.h; sourceTree = "<group>"; };
 		0461824E233A46F700C39711 /* JYDisableHightlightBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JYDisableHightlightBtn.m; sourceTree = "<group>"; };
+		04E6B206233BB1F300F549B1 /* OneDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OneDetailViewController.h; sourceTree = "<group>"; };
+		04E6B207233BB1F300F549B1 /* OneDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OneDetailViewController.m; sourceTree = "<group>"; };
 		166621743C3C7D5125286F9E /* Pods-JYNaviView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JYNaviView.release.xcconfig"; path = "Pods/Target Support Files/Pods-JYNaviView/Pods-JYNaviView.release.xcconfig"; sourceTree = "<group>"; };
 		A9B3F581E24C20A9C00D2016 /* libPods-JYNaviView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JYNaviView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B56431A0BACE37C1586AA82C /* Pods-JYNaviView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JYNaviView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JYNaviView/Pods-JYNaviView.debug.xcconfig"; sourceTree = "<group>"; };
@@ -129,6 +132,8 @@
 				0422076B233AFF9000465C39 /* OneViewController.h */,
 				0422076C233AFF9000465C39 /* OneViewController.m */,
 				04220763233AFEAD00465C39 /* One.storyboard */,
+				04E6B206233BB1F300F549B1 /* OneDetailViewController.h */,
+				04E6B207233BB1F300F549B1 /* OneDetailViewController.m */,
 			);
 			path = One;
 			sourceTree = "<group>";
@@ -329,6 +334,7 @@
 				04220776233AFFDC00465C39 /* FourViewController.m in Sources */,
 				04618245233A46A800C39711 /* main.m in Sources */,
 				0461824F233A46F800C39711 /* JYNaviView.m in Sources */,
+				04E6B208233BB1F300F549B1 /* OneDetailViewController.m in Sources */,
 				04220762233AFEA000465C39 /* JYBaseViewController.m in Sources */,
 				0422076D233AFF9000465C39 /* OneViewController.m in Sources */,
 				0422077D233B2CDF00465C39 /* TwoDetailViewController.m in Sources */,
